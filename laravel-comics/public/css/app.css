@@ -4645,6 +4645,119 @@ header ul li a.active {
   color: #0282F9;
 }
 
+main {
+  background-color: black;
+}
+
+.jumbo {
+  background-color: black;
+}
+
+.jumbo img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.jumbo-elements {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.jumbo-elements h2 {
+  color: white;
+  margin: 0;
+  background-color: #0282F9;
+  width: 17%;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.jumbo-elements button {
+  background-color: #0282F9;
+  color: white;
+  width: 15%;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.load-button-container {
+  text-align: center;
+}
+
+.comics-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.main-container,
+.info-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bg-info-container {
+  background-color: #0282F9;
+}
+
+.single-info {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.single-info p {
+  font-size: 0.6rem;
+  padding-left: 15px;
+}
+
+h4 {
+  padding: 40px 0;
+}
+
+img {
+  width: 30px;
+}
+
+h4,
+p {
+  color: white;
+  margin: 0;
+}
+
+.comics-single-card {
+  width: calc(16.6666666667% - 40px);
+  margin: 10px;
+}
+
+.comics-single-card p {
+  color: white;
+}
+
+.image-container {
+  height: 170px;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
 * {
   margin: 0;
   padding: 0;
