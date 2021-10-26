@@ -18,6 +18,12 @@ Route::get('/comics', function () {
     return view('comics', ['comics' => $comics]);
 })->name("comics");
 
+Route::get('/comic/{id}', function ($id) {
+    $comics  = config('comics');
+    $comic = $comics[$id];
+    return view('comic', ['comic' => $comic]);
+})->name("comic");
+
 Route::get('/characters', function () {
     return view('characters');
 })->name("characters");

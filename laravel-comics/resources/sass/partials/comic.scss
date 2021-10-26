@@ -1,0 +1,54 @@
+#comic-container{
+    width: 50%;
+    margin: 0 auto;
+    .comic-img{
+        width: 130px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .comic-info {
+        display: flex;
+        .comic-presentation{
+            width: 65%;
+            .comic-title{
+                margin-bottom: 20px;
+            }
+            .avaiable{
+                color: white;
+                display: flex;
+                position: relative;
+                margin-bottom: 20px;
+                background-color: rgb(87, 170, 87);
+                .price {
+                    padding: 20px;
+                    .avv{
+                        padding-left: 80px;
+                        
+                    }
+                }
+                .check {
+                    position: absolute;
+                    right: 0;
+                    border-left: 1px solid black;
+                    padding: 20px;
+                }
+            }
+            .description{
+                p{
+                    color: black;
+                    font-size: .9rem;
+                }
+                
+            }
+        }
+        .rewards{
+            text-align: right;
+            img{
+                width: 80%;
+            }
+        }
+    }
+
+}

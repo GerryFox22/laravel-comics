@@ -4639,10 +4639,6 @@ header ul li a.active {
   color: #0282F9;
 }
 
-main {
-  background-color: black;
-}
-
 .jumbo {
   background-color: black;
 }
@@ -4838,6 +4834,55 @@ a {
   text-decoration: none;
   color: gray;
   font-size: 0.6rem;
+}
+
+#comic-container {
+  width: 50%;
+  margin: 0 auto;
+}
+#comic-container .comic-img {
+  width: 130px;
+}
+#comic-container .comic-img img {
+  width: 100%;
+}
+#comic-container .comic-info {
+  display: flex;
+}
+#comic-container .comic-info .comic-presentation {
+  width: 65%;
+}
+#comic-container .comic-info .comic-presentation .comic-title {
+  margin-bottom: 20px;
+}
+#comic-container .comic-info .comic-presentation .avaiable {
+  color: white;
+  display: flex;
+  position: relative;
+  margin-bottom: 20px;
+  background-color: #57aa57;
+}
+#comic-container .comic-info .comic-presentation .avaiable .price {
+  padding: 20px;
+}
+#comic-container .comic-info .comic-presentation .avaiable .price .avv {
+  padding-left: 80px;
+}
+#comic-container .comic-info .comic-presentation .avaiable .check {
+  position: absolute;
+  right: 0;
+  border-left: 1px solid black;
+  padding: 20px;
+}
+#comic-container .comic-info .comic-presentation .description p {
+  color: black;
+  font-size: 0.9rem;
+}
+#comic-container .comic-info .rewards {
+  text-align: right;
+}
+#comic-container .comic-info .rewards img {
+  width: 80%;
 }
 
 * {
