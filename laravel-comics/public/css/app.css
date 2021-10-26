@@ -4842,12 +4842,14 @@ a {
 }
 #comic-container .comic-img {
   width: 130px;
+  margin-bottom: 40px;
 }
 #comic-container .comic-img img {
   width: 100%;
 }
 #comic-container .comic-info {
   display: flex;
+  margin-bottom: 40px;
 }
 #comic-container .comic-info .comic-presentation {
   width: 65%;
@@ -4883,6 +4885,29 @@ a {
 }
 #comic-container .comic-info .rewards img {
   width: 80%;
+}
+#comic-container .talent-specs {
+  display: flex;
+  background-color: #b1adad;
+}
+#comic-container .talent-specs .talent,
+#comic-container .talent-specs .specs {
+  width: 50%;
+}
+#comic-container .talent-specs h4 {
+  color: black;
+  padding: 10px;
+}
+#comic-container .talent-specs span {
+  font-size: 0.7rem;
+}
+#comic-container .talent-specs .row {
+  padding: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#comic-container .talent-specs .row .right-element {
+  padding-left: 50px;
 }
 
 * {

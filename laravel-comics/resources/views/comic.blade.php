@@ -30,7 +30,39 @@
             </div>
         </div>
 
-
+        <div class="talent-specs">
+            <div class="talent">
+                <h4>Talent</h4>
+                <div class="row">
+                    <span>Art By:</span>
+        
+                    <span class="right-element"></span>
+                </div>
+                <div class="row">
+                    <span>Written By:</span>
+        
+                    <span class="right-element"></span>
+                </div>
+            </div>
+            <div class="specs">
+                <h4>Specs</h4>
+                <div class="row">
+                    <span>Series:</span>
+        
+                    <span class="right-element">{{ $comic['series'] }}</span>
+                </div>
+                <div class="row">
+                    <span>U.S. Price:</span>
+        
+                    <span class="right-element">{{ $comic['price'] }}</span>
+                </div>
+                <div class="row">
+                    <span>On Sale Date:</span>
+        
+                    <span class="right-element">{{ $comic['sale_date'] }}</span>
+                </div>
+            </div>
+        </div>
     </div>
     
 @endsection

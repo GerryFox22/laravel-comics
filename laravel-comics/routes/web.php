@@ -21,7 +21,7 @@ Route::get('/comics', function () {
 Route::get('/comic/{id}', function ($id) {
     $comics  = config('comics');
     $comic = $comics[$id];
-    return view('comic', ['comic' => $comic]);
+    return view('comic', ['comic' => $comic ]);
 })->name("comic");
 
 Route::get('/characters', function () {
