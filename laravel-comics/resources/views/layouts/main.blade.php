@@ -16,11 +16,11 @@
         </main>
 
     @include("partials.footer",
-    ['links' => config('header_main_menu')],
-    ['shop' => config('shop')],
-    ['dc' => config('dc')],
-    ['sites' => config('sites')],
-    ['socials' => config('socials')]
+    ['links' => config('header_main_menu'),
+    'shop' => config('shop'),
+    'dc' => config('dc'),
+    'sites' => config('sites'),
+    'socials' => config('socials')]
      )
 
     <script src="{{ asset('js/app.js') }}"></script>

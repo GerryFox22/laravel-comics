@@ -1,0 +1,93 @@
+
+.footer-nav {
+    background-image: url("images/footer-bg.jpg");
+    height: 300px;
+  }
+  
+  .footer-dc-logo {
+      background-image: url("images/dc-logo-bg.png");
+      width: 40%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .footer-nav-elements {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .footer-socials {
+    background-color: #303030;
+    display: flex;
+  }
+  
+  .footer-nav-column {
+    padding-right: 35px;
+  }
+  
+  .footer-socials-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .socials-dc h3 {
+    color: #0282F9;
+    margin: 0;
+    margin-right: 10px;
+  }
+  
+  .follow-button {
+    margin-top: 10px;
+  }
+  
+  .follow-button button {
+    background-color: transparent;
+    border: 1px solid #0282F9;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .socials-dc {
+    display: flex;
+    align-items: center;
+  }
+  
+  .singlge-dc-social {
+    padding: 10px;
+  }
+  
+  h3 {
+    color: white;
+    font-size: .8rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    line-height: 15px;
+    margin-bottom: 20px;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: gray;
+    font-size: .6rem;
+  }

@@ -3,10 +3,10 @@
 @section("title", "Comics")
 
 @section("contenuto")
-    @include (['comics' => config('comics')])
+ 
     <main>
         <div class="jumbo">
-            <img src="public/jumbotron.jpg" alt="">
+            <img src="images/jumbotron.jpg" alt="">
             <div class="jumbo-elements">
                 <h2>CURRENT SERIES</h2>
 
@@ -14,7 +14,7 @@
                     @foreach ($comics as $comic)
                         <div class="comics-single-card">
                             <div class="image-container">
-                                <img src="image" alt="series">
+                                <img src="{{ $comic['thumb'] }}" alt="series">
                             </div>
                             <p>{{ $comic["title"] }}</p>
                         </div>
